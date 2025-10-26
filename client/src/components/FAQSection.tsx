@@ -8,29 +8,54 @@ const FAQSection = () => {
 
   const faqs = [
     {
-      question: "How does the free trial work?",
+      question: "Can I schedule posts for multiple platforms at once?",
       answer:
-        "You get full access to SocialPlan for 7 days without any limitations. No credit card required to start. You can explore all features, connect your accounts, and schedule posts. If you decide to continue, you can choose a plan that fits your needs.",
+        "Absolutely! You can create one post and customize it for all connected platforms in a single click. Adjust captions, hashtags, and formats per platform before scheduling.",
     },
     {
-      question: "Which social media platforms do you support?",
+      question: "Do you support video uploads and reels?",
       answer:
-        "We support Instagram, Twitter/X, Facebook, LinkedIn, TikTok, Pinterest, YouTube, and more. We're constantly adding new platforms based on user demand.",
+        "Yes! You can upload and schedule videos, reels, and shorts directly from SocialPlan. The platform automatically optimizes the format and resolution for each social media site.",
     },
     {
-      question: "How does the AI caption generation work?",
+      question: "Is my data safe with SocialPlan?",
       answer:
-        "Our AI learns from your past successful posts and adapts to your brand voice, generating engaging captions with hashtags and emojis tailored to each platform.",
+        "100%. We use bank-grade encryption and comply with GDPR standards. Your credentials and media files are stored securely and never shared with third parties.",
     },
     {
-      question: "Can I collaborate with my team?",
+      question: "Can I track post performance and analytics?",
       answer:
-        "Yes! Invite team members, assign roles, share content calendars, and work together on campaigns. Enterprise plans also include approval workflows.",
+        "Yes, our analytics dashboard gives you insights on engagement, reach, follower growth, and best posting times — all in one place, across every platform.",
     },
     {
-      question: "Do you offer refunds?",
+      question: "Does SocialPlan support hashtags and mentions?",
       answer:
-        "Yes, we provide a 30-day money-back guarantee for all paid plans. If you're not satisfied within your first month, we'll issue a full refund.",
+        "Of course! You can add, save, and auto-suggest hashtags or tag other profiles directly while creating posts. Our AI also recommends trending hashtags for better reach.",
+    },
+    {
+      question: "Is there a mobile app available?",
+      answer:
+        "Yes! The SocialPlan mobile app lets you manage, schedule, and approve posts on the go — perfect for creators and teams that never stop moving.",
+    },
+    {
+      question: "What happens when my trial ends?",
+      answer:
+        "After your free trial, you can choose a subscription plan that fits your needs. Don’t worry — we’ll notify you before it ends so you won’t lose any scheduled content.",
+    },
+    {
+      question: "Can I connect multiple accounts from the same platform?",
+      answer:
+        "Yes, you can connect multiple accounts from the same platform, like several Instagram pages or YouTube channels, and manage them seamlessly in one dashboard.",
+    },
+    {
+      question: "Do you offer customer support?",
+      answer:
+        "Definitely. Our support team is available 24/7 via chat and email. Plus, you’ll get access to our knowledge base and onboarding tutorials to help you master the platform.",
+    },
+    {
+      question: "Do you offer discounts for agencies or annual plans?",
+      answer:
+        "Yes! We provide special pricing for agencies, freelancers, and annual subscriptions. You can save up to 25% when you choose yearly billing.",
     },
   ];
 
@@ -71,7 +96,8 @@ const FAQSection = () => {
             transition={{ delay: 0.2, duration: 0.7 }}
             viewport={{ once: true }}
           >
-            Can’t find the answer you’re looking for? Reach out to our support team anytime.
+            Can’t find the answer you’re looking for? Reach out to our support
+            team anytime.
           </motion.p>
         </div>
 
